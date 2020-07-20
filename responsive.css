@@ -1,0 +1,184 @@
+@media (max-width: 900px) {
+  .mainvisual {
+  background-image: url(img/mainlip.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .color {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lip {
+    display: inline-block;
+    width: 230px;
+    margin: 0 auto 30px;
+  }
+    
+.scene {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.scene li {
+  flex: auto;
+  width: 300px;
+  text-align: center;
+  list-style: none;
+}
+    
+#section3 {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.point-wrapper {
+  height: 263px;
+  width: 100%;
+  position: relative;
+  margin: 10px;
+}
+    
+.tablet {
+  width: 350px;
+ }
+
+.point-img {
+  left: 0;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.pointtitle {
+  float: right;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.point-img2 {
+  right: 0;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.pointtitle2 {
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+}    
+    
+}
+
+@media (max-width: 670px) {
+  .mainvisual {
+    background-image: url(img/mainlip2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .color {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lip {
+    width: 400px;
+    margin: 20px auto;
+    flex: auto;
+    flex-direction: column;
+  }
+    
+  .scene {
+   width: 325px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 40px;
+}
+
+  .scene li {
+   flex: auto;
+   width: 300px;
+   text-align: center;
+   list-style: none;
+}
+    
+#section3 {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.point-wrapper {
+  height: 570px;
+  width: 100%;
+  margin: 10px;
+}
+    
+.tablet {
+  width: 400px;
+ }
+
+
+.point-img {
+  float: none;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+    
+.pointtitle {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.point-img2 {
+  float: none;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.pointtitle2 {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+ul {
+    padding: 0 30px;
+  }
+    
+footer a {
+  font-size: 12px;
+}
+
+}
