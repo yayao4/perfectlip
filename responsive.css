@@ -2,10 +2,8 @@
   .mainvisual {
   background-image: url(img/mainlip.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 600px;
-  height: 300px;
-  margin: 0 auto;
+  background-size: contain;
+  width: 700px;
   }
 
   h1 {
@@ -93,7 +91,7 @@
   .mainvisual {
     background-image: url(img/mainlip2.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 400px;
     }
 

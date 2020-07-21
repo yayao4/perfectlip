@@ -20,9 +20,9 @@ header,body{
  .mainvisual {
   background-image: url(img/mainlip.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 1200px;
-  height: 598px;
+  background-size: contain;
+  width: 1000px;
+  height: 333px;
   margin: 0 auto;
  }
 
