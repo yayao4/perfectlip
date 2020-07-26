@@ -60,6 +60,10 @@ header,body{
      display: block;
    }
 
+span {
+  color: pink;
+}
+
 /*Color variation*/
 
 .color {
