@@ -19,10 +19,11 @@ header,body{
 
  .mainvisual {
   background-image: url(img/mainlip.png);
-  background-repeat: no-repeat;
   background-size: cover;
-  width: 1200px;
-  height: 461px;
+  background-repeat: no-repeat;
+  max-width: 900px;
+  width: 100%;
+  padding: 230px 480px;
   margin: 0 auto;
  }
 
@@ -32,12 +33,8 @@ header,body{
  }
 
   .container {
-     width: 100%;
-     margin: 0 auto;
-   }
-
-   .wrapper {
-     padding: 0 0 150px;
+    width: 100%;
+    margin: 0 auto;
    }
 
    * {
@@ -45,8 +42,7 @@ header,body{
    }
 
    section {
-     height: auto;
-     margin: 100px auto;
+     margin: 100px 0;
    }
 
    h2 {
@@ -59,10 +55,6 @@ header,body{
    div {
      display: block;
    }
-
-span {
-  color: pink;
-}
 
 /*Color variation*/
 
@@ -108,10 +100,9 @@ span {
 /* scene */
 
 .scene {
-  width: 900px;
-  margin: 0 auto;
   display: flex;
-  padding: 40px;
+  padding: 20px;
+  margin: 0 80px;
 }
 
 .scene li {
@@ -119,6 +110,7 @@ span {
   width: 250px;
   text-align: center;
   list-style: none;
+  margin: 0 10px;
 }
 
 #section2 h2 {
@@ -130,7 +122,7 @@ span {
   color: #eee;
 }
 
-#section2 {
+.section2 {
   background-color: rgb(134, 31, 78);
   margin: 0;
 }
